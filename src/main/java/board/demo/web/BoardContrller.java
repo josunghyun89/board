@@ -1,10 +1,13 @@
 package board.demo.web;
 
+import board.demo.domain.Boards;
 import board.demo.service.BoardService;
 import lombok.extern.java.Log;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
+
+import java.util.List;
 
 @Log
 @Controller
@@ -18,4 +21,12 @@ public class BoardContrller
         log.info("인덱스 폼");
         return "index";
     }
+
+    @GetMapping("/board")
+    public String list(){
+        List<Boards> boardList = boardService.list();
+
+        return "test";
+    }
+
 }

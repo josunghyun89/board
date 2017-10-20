@@ -13,7 +13,7 @@ public class BoardService
     @Autowired
     private BoardRepository repository;
 
-    public List<Boards> getBoards(){
+    public List<Boards> list(){
         return repository.findAll();
     }
 }

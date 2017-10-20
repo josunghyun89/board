@@ -32,4 +32,12 @@ dependencies {
 	runtime("com.h2database:h2")
 
 	compileOnly('org.projectlombok:lombok')
+
+	//JSP
+	compile('org.apache.tomcat.embed:tomcat-embed-jasper')
+	compile('javax.servlet:jstl:1.2')
+
+	//MYSQL
+	compile('org.springframework.boot:spring-boot-starter-jdbc')
+	compile('mysql:mysql-connector-java')
 }
