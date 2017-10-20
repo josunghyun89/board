@@ -4,22 +4,20 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
 import javax.persistence.*;
 
 @Entity
 @Getter
 @Setter
 @ToString
-@Table(name="Tb_Board")
-public class Boards
+@Table(name="Tb_User")
+public class Users
 {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int idx;
     @Column
-    private String title;
+    private String email;
     @Column
-    private String content;
+    private String name;
 }
