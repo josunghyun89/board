@@ -6,7 +6,7 @@
     <title>게시판</title>
 </head>
 <body>
-<h2>글 목록TEST6123</h2>
+<h2>글 목록TEST6121113</h2>
 <table style="border: 1px solid #ccc">
     <colgroup>
         <col width="10%" />
