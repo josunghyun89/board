@@ -12,9 +12,9 @@
         <col width="10%" />
         <col width="15%" />
         <col width="20%" />
-    </colgroup>
+    </colgroup>d
     <thead>
-    <tr>
+    <tr>v
         <th scope="col">글번호</th>111
         <th scope="col">제목</th>
         <th scope="col">작성자</th>
