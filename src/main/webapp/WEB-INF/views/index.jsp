@@ -12,7 +12,7 @@
         <col width="10%" />
         <col width="15%" />
         <col width="20%" />
-    </colgroup>d
+    </colgroup>
     <thead>
     <tr>v
         <th scope="col">글번호</th>111
