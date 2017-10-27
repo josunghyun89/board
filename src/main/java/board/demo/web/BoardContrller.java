@@ -29,5 +29,9 @@ public class BoardContrller
         model.addAttribute("boardList",boardList);
         return "index";
     }
+    @GetMapping("/test")
+    public String test(){
+        return "test";
+    }
 
 }
