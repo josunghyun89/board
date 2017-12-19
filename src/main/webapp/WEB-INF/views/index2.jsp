@@ -6,7 +6,7 @@
     <title>게시판</title>
 </head>
 <body>
-<h2>인덱스2 수정</h2>
+<h2>글 목록TEST611</h2>
 <table style="border: 1px solid #ccc">
     <colgroup>
         <col width="10%" />
@@ -21,7 +21,17 @@
         <th scope="col"></th>
     </tr>
     </thead>
+    <tbody>
 
+    <c:forEach var="list" items="${boardList}">
+        <tr>
+            <td align="center">${list.idx}</td>
+            <td align="center">${list.title}</td>
+            <td align="center">${list.content}</td>
+            <td align="center"><a onclick="return Delete()">글삭제</a></td>
+        </tr>
+    </c:forEach>
+    </tbody>
 </table>
 
 <button type="button" onclick="onWrite()" class="btn btn-primary">글쓰기</button>

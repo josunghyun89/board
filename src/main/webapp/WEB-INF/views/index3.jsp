@@ -6,7 +6,7 @@
     <title>게시판</title>
 </head>
 <body>
-<h2>인덱스 3 수정</h2>
+<h2>글 목록TEST611</h2>
 <table style="border: 1px solid #ccc">
     <colgroup>
         <col width="10%" />
