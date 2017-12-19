@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>게시판</title>
+    <title>게시판test</title>
 </head>
 <body>
 <h2>글 목록TEST611</h2>
